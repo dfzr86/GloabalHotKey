@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDC5002B2670C3CE0080AB00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC5002A2670C3CE0080AB00 /* AppDelegate.m */; };
+		BDC5002E2670C3CE0080AB00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC5002D2670C3CE0080AB00 /* ViewController.m */; };
+		BDC500302670C3CF0080AB00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDC5002F2670C3CF0080AB00 /* Assets.xcassets */; };
+		BDC500332670C3CF0080AB00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDC500312670C3CF0080AB00 /* Main.storyboard */; };
+		BDC500352670C3CF0080AB00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC500342670C3CF0080AB00 /* main.m */; };
+		BDC5003F2670C3D00080AB00 /* RegisterGlobalHotKeyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC5003E2670C3D00080AB00 /* RegisterGlobalHotKeyTests.m */; };
+		BDC500492670C3D00080AB00 /* RegisterGlobalHotKeyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC500482670C3D00080AB00 /* RegisterGlobalHotKeyUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDC5003B2670C3D00080AB00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDC5001E2670C3CE0080AB00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDC500252670C3CE0080AB00;
+			remoteInfo = RegisterGlobalHotKey;
+		};
+		BDC500452670C3D00080AB00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDC5001E2670C3CE0080AB00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDC500252670C3CE0080AB00;
+			remoteInfo = RegisterGlobalHotKey;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDC500262670C3CE0080AB00 /* RegisterGlobalHotKey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RegisterGlobalHotKey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDC500292670C3CE0080AB00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BDC5002A2670C3CE0080AB00 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BDC5002C2670C3CE0080AB00 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BDC5002D2670C3CE0080AB00 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BDC5002F2670C3CF0080AB00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDC500322670C3CF0080AB00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDC500342670C3CF0080AB00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BDC5003A2670C3D00080AB00 /* RegisterGlobalHotKeyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RegisterGlobalHotKeyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDC5003E2670C3D00080AB00 /* RegisterGlobalHotKeyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterGlobalHotKeyTests.m; sourceTree = "<group>"; };
+		BDC500442670C3D00080AB00 /* RegisterGlobalHotKeyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RegisterGlobalHotKeyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDC500482670C3D00080AB00 /* RegisterGlobalHotKeyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterGlobalHotKeyUITests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDC500232670C3CE0080AB00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDC500372670C3D00080AB00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDC500412670C3D00080AB00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDC5001D2670C3CE0080AB00 = {
+			isa = PBXGroup;
+			children = (
+				BDC500282670C3CE0080AB00 /* RegisterGlobalHotKey */,
+				BDC5003D2670C3D00080AB00 /* RegisterGlobalHotKeyTests */,
+				BDC500472670C3D00080AB00 /* RegisterGlobalHotKeyUITests */,
+				BDC500272670C3CE0080AB00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDC500272670C3CE0080AB00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDC500262670C3CE0080AB00 /* RegisterGlobalHotKey.app */,
+				BDC5003A2670C3D00080AB00 /* RegisterGlobalHotKeyTests.xctest */,
+				BDC500442670C3D00080AB00 /* RegisterGlobalHotKeyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDC500282670C3CE0080AB00 /* RegisterGlobalHotKey */ = {
+			isa = PBXGroup;
+			children = (
+				BDC500292670C3CE0080AB00 /* AppDelegate.h */,
+				BDC5002A2670C3CE0080AB00 /* AppDelegate.m */,
+				BDC5002C2670C3CE0080AB00 /* ViewController.h */,
+				BDC5002D2670C3CE0080AB00 /* ViewController.m */,
+				BDC5002F2670C3CF0080AB00 /* Assets.xcassets */,
+				BDC500312670C3CF0080AB00 /* Main.storyboard */,
+				BDC500342670C3CF0080AB00 /* main.m */,
+			);
+			path = RegisterGlobalHotKey;
+			sourceTree = "<group>";
+		};
+		BDC5003D2670C3D00080AB00 /* RegisterGlobalHotKeyTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDC5003E2670C3D00080AB00 /* RegisterGlobalHotKeyTests.m */,
+			);
+			path = RegisterGlobalHotKeyTests;
+			sourceTree = "<group>";
+		};
+		BDC500472670C3D00080AB00 /* RegisterGlobalHotKeyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDC500482670C3D00080AB00 /* RegisterGlobalHotKeyUITests.m */,
+			);
+			path = RegisterGlobalHotKeyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDC500252670C3CE0080AB00 /* RegisterGlobalHotKey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDC5004C2670C3D00080AB00 /* Build configuration list for PBXNativeTarget "RegisterGlobalHotKey" */;
+			buildPhases = (
+				BDC500222670C3CE0080AB00 /* Sources */,
+				BDC500232670C3CE0080AB00 /* Frameworks */,
+				BDC500242670C3CE0080AB00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RegisterGlobalHotKey;
+			productName = RegisterGlobalHotKey;
+			productReference = BDC500262670C3CE0080AB00 /* RegisterGlobalHotKey.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDC500392670C3D00080AB00 /* RegisterGlobalHotKeyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDC5004F2670C3D00080AB00 /* Build configuration list for PBXNativeTarget "RegisterGlobalHotKeyTests" */;
+			buildPhases = (
+				BDC500362670C3D00080AB00 /* Sources */,
+				BDC500372670C3D00080AB00 /* Frameworks */,
+				BDC500382670C3D00080AB00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDC5003C2670C3D00080AB00 /* PBXTargetDependency */,
+			);
+			name = RegisterGlobalHotKeyTests;
+			productName = RegisterGlobalHotKeyTests;
+			productReference = BDC5003A2670C3D00080AB00 /* RegisterGlobalHotKeyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDC500432670C3D00080AB00 /* RegisterGlobalHotKeyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDC500522670C3D00080AB00 /* Build configuration list for PBXNativeTarget "RegisterGlobalHotKeyUITests" */;
+			buildPhases = (
+				BDC500402670C3D00080AB00 /* Sources */,
+				BDC500412670C3D00080AB00 /* Frameworks */,
+				BDC500422670C3D00080AB00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDC500462670C3D00080AB00 /* PBXTargetDependency */,
+			);
+			name = RegisterGlobalHotKeyUITests;
+			productName = RegisterGlobalHotKeyUITests;
+			productReference = BDC500442670C3D00080AB00 /* RegisterGlobalHotKeyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDC5001E2670C3CE0080AB00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					BDC500252670C3CE0080AB00 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					BDC500392670C3D00080AB00 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = BDC500252670C3CE0080AB00;
+					};
+					BDC500432670C3D00080AB00 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = BDC500252670C3CE0080AB00;
+					};
+				};
+			};
+			buildConfigurationList = BDC500212670C3CE0080AB00 /* Build configuration list for PBXProject "RegisterGlobalHotKey" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDC5001D2670C3CE0080AB00;
+			productRefGroup = BDC500272670C3CE0080AB00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDC500252670C3CE0080AB00 /* RegisterGlobalHotKey */,
+				BDC500392670C3D00080AB00 /* RegisterGlobalHotKeyTests */,
+				BDC500432670C3D00080AB00 /* RegisterGlobalHotKeyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDC500242670C3CE0080AB00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDC500302670C3CF0080AB00 /* Assets.xcassets in Resources */,
+				BDC500332670C3CF0080AB00 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDC500382670C3D00080AB00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDC500422670C3D00080AB00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDC500222670C3CE0080AB00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDC5002E2670C3CE0080AB00 /* ViewController.m in Sources */,
+				BDC500352670C3CF0080AB00 /* main.m in Sources */,
+				BDC5002B2670C3CE0080AB00 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDC500362670C3D00080AB00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDC5003F2670C3D00080AB00 /* RegisterGlobalHotKeyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDC500402670C3D00080AB00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDC500492670C3D00080AB00 /* RegisterGlobalHotKeyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDC5003C2670C3D00080AB00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDC500252670C3CE0080AB00 /* RegisterGlobalHotKey */;
+			targetProxy = BDC5003B2670C3D00080AB00 /* PBXContainerItemProxy */;
+		};
+		BDC500462670C3D00080AB00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDC500252670C3CE0080AB00 /* RegisterGlobalHotKey */;
+			targetProxy = BDC500452670C3D00080AB00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDC500312670C3CF0080AB00 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDC500322670C3CF0080AB00 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDC5004A2670C3D00080AB00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BDC5004B2670C3D00080AB00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BDC5004D2670C3D00080AB00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-13.RegisterGlobalHotKey";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		BDC5004E2670C3D00080AB00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-13.RegisterGlobalHotKey";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		BDC500502670C3D00080AB00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-13.RegisterGlobalHotKeyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RegisterGlobalHotKey.app/Contents/MacOS/RegisterGlobalHotKey";
+			};
+			name = Debug;
+		};
+		BDC500512670C3D00080AB00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-13.RegisterGlobalHotKeyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RegisterGlobalHotKey.app/Contents/MacOS/RegisterGlobalHotKey";
+			};
+			name = Release;
+		};
+		BDC500532670C3D00080AB00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-13.RegisterGlobalHotKeyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = RegisterGlobalHotKey;
+			};
+			name = Debug;
+		};
+		BDC500542670C3D00080AB00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-13.RegisterGlobalHotKeyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = RegisterGlobalHotKey;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDC500212670C3CE0080AB00 /* Build configuration list for PBXProject "RegisterGlobalHotKey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDC5004A2670C3D00080AB00 /* Debug */,
+				BDC5004B2670C3D00080AB00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDC5004C2670C3D00080AB00 /* Build configuration list for PBXNativeTarget "RegisterGlobalHotKey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDC5004D2670C3D00080AB00 /* Debug */,
+				BDC5004E2670C3D00080AB00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDC5004F2670C3D00080AB00 /* Build configuration list for PBXNativeTarget "RegisterGlobalHotKeyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDC500502670C3D00080AB00 /* Debug */,
+				BDC500512670C3D00080AB00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDC500522670C3D00080AB00 /* Build configuration list for PBXNativeTarget "RegisterGlobalHotKeyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDC500532670C3D00080AB00 /* Debug */,
+				BDC500542670C3D00080AB00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDC5001E2670C3CE0080AB00 /* Project object */;
+}
