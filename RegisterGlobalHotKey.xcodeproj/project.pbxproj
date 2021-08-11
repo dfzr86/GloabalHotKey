@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		BDC500352670C3CF0080AB00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC500342670C3CF0080AB00 /* main.m */; };
 		BDC5003F2670C3D00080AB00 /* RegisterGlobalHotKeyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC5003E2670C3D00080AB00 /* RegisterGlobalHotKeyTests.m */; };
 		BDC500492670C3D00080AB00 /* RegisterGlobalHotKeyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC500482670C3D00080AB00 /* RegisterGlobalHotKeyUITests.m */; };
+		BDC500572670C61F0080AB00 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDC500562670C61F0080AB00 /* Carbon.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		BDC5003E2670C3D00080AB00 /* RegisterGlobalHotKeyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterGlobalHotKeyTests.m; sourceTree = "<group>"; };
 		BDC500442670C3D00080AB00 /* RegisterGlobalHotKeyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RegisterGlobalHotKeyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDC500482670C3D00080AB00 /* RegisterGlobalHotKeyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterGlobalHotKeyUITests.m; sourceTree = "<group>"; };
+		BDC500562670C61F0080AB00 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDC500572670C61F0080AB00 /* Carbon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +83,7 @@
 				BDC5003D2670C3D00080AB00 /* RegisterGlobalHotKeyTests */,
 				BDC500472670C3D00080AB00 /* RegisterGlobalHotKeyUITests */,
 				BDC500272670C3CE0080AB00 /* Products */,
+				BDC500552670C61E0080AB00 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,6 +125,14 @@
 				BDC500482670C3D00080AB00 /* RegisterGlobalHotKeyUITests.m */,
 			);
 			path = RegisterGlobalHotKeyUITests;
+			sourceTree = "<group>";
+		};
+		BDC500552670C61E0080AB00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDC500562670C61F0080AB00 /* Carbon.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,7 +214,7 @@
 				};
 			};
 			buildConfigurationList = BDC500212670C3CE0080AB00 /* Build configuration list for PBXProject "RegisterGlobalHotKey" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
